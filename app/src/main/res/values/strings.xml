@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Logres Firebase</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="username">Name</string>
+    <string name="email">Email address</string>
+    <string name="password">Password</string>
+    <string name="sign_Up">SIGN UP</string>
+    <string name="text_message_username">Please Enter Username</string>
+    <string name="text_message_email">Please Enter Email</string>
+    <string name="text_message_password">Please Enter Password</string>
+    <string name="welcome">Welcome\nBack</string>
+    <string name="sign_in_to_continue">Sign In To Continue</string>
+    <string name="sign_In">SIGN IN</string>
+    <string name="text_error_message">Error Message :</string>
+    <string name="forgot_password"><u>Forgot Password</u></string>
+    <string name="sign_up_title">Sign up and starting learing</string>
+</resources>

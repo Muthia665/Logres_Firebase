@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignInActivity"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/poppins"/>
+
+    <EditText
+        android:id="@+id/et_email_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:fontFamily="@font/poppins"
+        android:layout_below="@+id/title"/>
+
+    <EditText
+        android:id="@+id/et_password_signIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:padding="20dp"
+        android:fontFamily="@font/poppins"
+        android:layout_below="@+id/et_email_signIn"/>
+
+    <TextView
+        android:id="@+id/go_to_signIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_In"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/et_password_signIn"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_sign_in"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        app:fabSize="normal"
+        android:backgroundTint="#FF4500"
+        android:layout_below="@id/et_password_signIn"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_arrow_right"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:id="@+id/icon_google"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/go_to_signIn"
+        android:src="@drawable/search"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp" />
+
+    <ImageView
+        android:id="@+id/icon_facebook"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/go_to_signIn"
+        android:src="@drawable/facebook"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:fontFamily="@font/poppins"
+        android:layout_below="@+id/icon_google"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forgot_password"
+        android:fontFamily="@font/poppins"
+        android:layout_below="@+id/icon_google"
+        android:layout_marginTop="50dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>
